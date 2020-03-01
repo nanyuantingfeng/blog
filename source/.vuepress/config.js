@@ -12,7 +12,6 @@ module.exports = {
   serviceWorker: true,
   dest: "dist",
   base: "/",
-  permalink: "/:year/:month/:day/:slug",
   markdown: {
     lineNumbers: true,
     extendMarkdown: md => {
